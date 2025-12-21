@@ -21,6 +21,7 @@ main .hero{
     padding-left: 2em;
     padding-right: 2em ;
     padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .hero svg{
@@ -90,7 +91,7 @@ main .hero{
     
 }
 
-@media screen and (max-width:550px){
+@media screen and (max-width:630px){
     .hero .text{
         padding-left: 0;
         padding-right: 0;
@@ -100,4 +101,16 @@ main .hero{
         padding-left: .5em;
         padding-right: .5em;
     }
+
+    .hero h1{
+        font-size: 4em;
+    }
+
+    .hero h2{
+        font-size: 2em;
+    }
+
+    .hero p{
+        font-size: 1.5em;
+}
 }
