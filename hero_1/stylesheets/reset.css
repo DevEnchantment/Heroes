@@ -4,9 +4,10 @@
     box-sizing: border-box;
 }
 
-body{
+html body{
     min-height: 100dvh;
     width: 100dvw;
+    overflow-x: hidden;
 }
 
 .row{
