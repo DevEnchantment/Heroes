@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html body{
+body{
     min-height: 100dvh;
     width: 100dvw;
     overflow-x: hidden;
