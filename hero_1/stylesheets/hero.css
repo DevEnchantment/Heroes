@@ -113,4 +113,11 @@ main .hero{
     .hero p{
         font-size: 1.5em;
    }
+
+   @media (orientation: landscape) {
+        body{
+            height: auto;
+            width: auto;
+        }
+    }
 }
