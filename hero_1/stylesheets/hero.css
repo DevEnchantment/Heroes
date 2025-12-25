@@ -88,10 +88,22 @@ main .hero{
     .hero{
         text-align: center;
     }
+
+    .hero h1{
+        font-size: 4em;
+    }
+
+    .hero h2{
+        font-size: 3em;
+    }
+
+    .hero p{
+        font-size: 1.5em;
+   }
     
 }
 
-@media screen and (max-width:630px){
+@media screen and (max-width:700px){
     .hero .text{
         padding-left: 0;
         padding-right: 0;
@@ -103,7 +115,7 @@ main .hero{
     }
 
     .hero h1{
-        font-size: 4em;
+        font-size: 3.5em;
     }
 
     .hero h2{
@@ -111,7 +123,7 @@ main .hero{
     }
 
     .hero p{
-        font-size: 1.5em;
+        font-size: 1em;
    }
 
    @media (orientation: landscape) {
